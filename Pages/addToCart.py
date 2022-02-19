@@ -28,6 +28,8 @@ class AddToCart():
     def add_tshirt_to_cart(self):
         self.driver.find_element_by_css_selector(self.tshirt_page_btn).click()
         self.driver.implicitly_wait(10)
+        self.driver.find_element_by_id('layered_id_attribute_group_14').click()
+        self.driver.implicitly_wait(10)
         action = ActionChains(self.driver)
         action.move_to_element(self.driver.find_element_by_xpath(self.tshirt_card)).perform()
         self.driver.find_element_by_xpath(self.tshirt_addtocart_btn).click()
