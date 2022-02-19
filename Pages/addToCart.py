@@ -36,4 +36,3 @@ class AddToCart():
     def checkout_cart(self):
         self.driver.find_element_by_xpath(self.checkout_cart_btn).click()
         sleep(2)
-

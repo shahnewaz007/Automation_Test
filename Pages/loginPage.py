@@ -26,5 +26,3 @@ class LoginPage():
 
     def click_create_acc(self):
         self.driver.find_element_by_id(self.create_acc_btn_id).click()
-
-

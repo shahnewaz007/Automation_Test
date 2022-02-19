@@ -106,17 +106,3 @@ class AutomationTest(unittest.TestCase):
             checkoutPage_obj.payment()
 
             MyAccountPage_obj.click_signout()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
